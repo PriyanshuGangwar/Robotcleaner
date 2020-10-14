@@ -75,4 +75,6 @@ function backtrack(array, cell, direction) {
       backtrack(array, new_cell, new_d);
     }
   }
+  apush(array, cell);
+  visited.push(cell);
 }
